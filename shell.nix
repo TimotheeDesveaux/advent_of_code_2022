@@ -6,5 +6,9 @@ pkgs.mkShell
     # Ocaml
     ocaml
     ocamlPackages.ocaml-lsp
+
+    # Nim
+    nim
+    nimlsp
   ];
 }
