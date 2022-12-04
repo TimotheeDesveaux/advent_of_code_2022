@@ -10,5 +10,11 @@ pkgs.mkShell
     # Nim
     nim
     nimlsp
+
+    # D
+    dmd
   ];
+  shellHook = ''
+    export PATH="$HOME/.local/bin:$PATH"
+  '';
 }
