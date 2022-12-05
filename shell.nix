@@ -13,6 +13,10 @@ pkgs.mkShell
 
     # D
     dmd
+
+    # Perl
+    perl
+    perl536Packages.PLS
   ];
   shellHook = ''
     export PATH="$HOME/.local/bin:$PATH"
