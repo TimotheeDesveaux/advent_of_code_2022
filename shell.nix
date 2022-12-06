@@ -17,6 +17,10 @@ pkgs.mkShell
     # Perl
     perl
     perl536Packages.PLS
+
+    # Zig
+    zig
+    zls
   ];
   shellHook = ''
     export PATH="$HOME/.local/bin:$PATH"

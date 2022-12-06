@@ -7,6 +7,7 @@
 - Day 3: Nim
 - Day 4: D
 - Day 5: Perl
+- Day 6: Zig
 
 ## TODO
 
@@ -24,7 +25,6 @@
 - Shell
 - Ruby
 - Swift
-- Zig
 - Scala
 - Kotlin
 - Julia
