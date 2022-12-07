@@ -21,6 +21,10 @@ pkgs.mkShell
     # Zig
     zig
     zls
+
+    # Ruby
+    ruby_3_1
+    rubyPackages_3_1.solargraph
   ];
   shellHook = ''
     export PATH="$HOME/.local/bin:$PATH"

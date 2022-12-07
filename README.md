@@ -8,6 +8,7 @@
 - Day 4: D
 - Day 5: Perl
 - Day 6: Zig
+- Day 7: Ruby
 
 ## TODO
 
@@ -23,7 +24,6 @@
 - Java
 - C#
 - Shell
-- Ruby
 - Swift
 - Scala
 - Kotlin
