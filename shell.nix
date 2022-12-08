@@ -25,6 +25,9 @@ pkgs.mkShell
     # Ruby
     ruby_3_1
     rubyPackages_3_1.solargraph
+
+    # Ada
+    gnat
   ];
   shellHook = ''
     export PATH="$HOME/.local/bin:$PATH"

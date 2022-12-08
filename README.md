@@ -9,6 +9,7 @@
 - Day 5: Perl
 - Day 6: Zig
 - Day 7: Ruby
+- Day 8: Ada
 
 ## TODO
 
@@ -19,7 +20,6 @@
 - Lua
 - Lisp
 - Haskell
-- Ada
 - JS
 - Java
 - C#
