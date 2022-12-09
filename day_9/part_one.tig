@@ -1,0 +1,51 @@
+let
+    import "common.tih"
+
+    function part_one() : int =
+        let
+            function move_rope(head: point, tail: point, dir: string) =
+            (
+                if dir = "U" then
+                    head.y := head.y - 1
+                else if dir = "D" then
+                    head.y := head.y + 1
+                else if dir = "L" then
+                    head.x := head.x - 1
+                else if dir = "R" then
+                    head.x := head.x + 1;
+
+                if abs(head.x - tail.x) > 1 | abs(head.y - tail.y) > 1 then
+                (
+                    tail.x := tail.x + normalize(head.x - tail.x);
+                    tail.y := tail.y + normalize(head.y - tail.y)
+                )
+            )
+
+            var dir := getchar()
+            var discard := getchar()
+            var steps := get_int()
+
+            var head := point { x = 0, y = 0 }
+            var tail := point { x = 0, y = 0 }
+            var set := point_set { size = 0, points = nil }
+        in
+            while dir <> "" do
+            (
+                for i := 1 to steps do
+                (
+                    move_rope(head, tail, dir);
+                    insert_point(set, tail)
+                );
+
+                dir := getchar();
+                discard := getchar();
+                steps := get_int()
+            );
+
+            set.size
+        end
+in
+    print("part one: ");
+    print_int(part_one());
+    print("\n")
+end

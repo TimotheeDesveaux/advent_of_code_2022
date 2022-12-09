@@ -10,6 +10,7 @@
 - Day 6: Zig
 - Day 7: Ruby
 - Day 8: Ada
+- Day 9: Tiger
 
 ## TODO
 
@@ -29,4 +30,3 @@
 - Kotlin
 - Julia
 - F#
-- Tiger

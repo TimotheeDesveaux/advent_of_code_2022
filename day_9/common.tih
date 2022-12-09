@@ -1,0 +1,71 @@
+type point = {
+    x: int,
+    y: int
+}
+
+type point_list = {
+    point: point,
+    next: point_list
+}
+
+type point_set = {
+    size: int,
+    points: point_list
+}
+
+function insert_point(set: point_set, p: point) =
+    let
+        var current := set.points
+        var new_point := point_list {
+            point = point { x = p.x, y = p.y},
+            next = nil
+        }
+    in
+        if current = nil then
+        (
+            set.points := new_point;
+            set.size := set.size + 1
+        )
+        else
+        (
+            while current.next <> nil do
+            (
+                if current.point.x = p.x & current.point.y = p.y then
+                    break;
+                current := current.next
+            );
+
+            if current.point.x <> p.x | current.point.y <> p.y then
+            (
+                current.next := new_point;
+                set.size := set.size + 1
+            )
+        )
+    end
+
+function get_int() : int =
+    let
+        var res := 0
+        var c := getchar()
+    in
+        while c <> "" & ord(c) >= 48 & ord(c) <= 57 do
+        (
+            res := res * 10 + (ord(c) - 48);
+            c := getchar()
+        );
+        res
+    end
+
+function abs(n: int) : int =
+    if n < 0 then
+        -n
+    else
+        n
+
+function normalize(n: int) : int =
+    if n = 0 then
+        0
+    else if n < 0 then
+        -1
+    else
+        1
