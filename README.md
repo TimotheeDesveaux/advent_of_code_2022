@@ -11,6 +11,7 @@
 - Day 7: Ruby
 - Day 8: Ada
 - Day 9: Tiger
+- Day 10: Scala
 
 ## TODO
 
@@ -26,7 +27,6 @@
 - C#
 - Shell
 - Swift
-- Scala
 - Kotlin
 - Julia
 - F#

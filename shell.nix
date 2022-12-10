@@ -28,6 +28,10 @@ pkgs.mkShell
 
     # Ada
     gnat
+
+    # Scala
+    scala
+    metals
   ];
   shellHook = ''
     export PATH="$HOME/.local/bin:$PATH"
