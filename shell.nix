@@ -32,8 +32,12 @@ pkgs.mkShell
     # Scala
     scala
     metals
+
+    # Java
+    jdk
   ];
   shellHook = ''
     export PATH="$HOME/.local/bin:$PATH"
+    export PATH="$HOME/Documents/perso/advent_of_code_2022/jdtls/bin:$PATH"
   '';
 }

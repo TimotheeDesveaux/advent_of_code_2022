@@ -12,6 +12,7 @@
 - Day 8: Ada
 - Day 9: Tiger
 - Day 10: Scala
+- Day 11: Java
 
 ## TODO
 
@@ -23,7 +24,6 @@
 - Lisp
 - Haskell
 - JS
-- Java
 - C#
 - Shell
 - Swift
