@@ -13,6 +13,7 @@
 - Day 9: Tiger
 - Day 10: Scala
 - Day 11: Java
+- Day 12: Kotlin
 
 ## TODO
 
@@ -27,6 +28,5 @@
 - C#
 - Shell
 - Swift
-- Kotlin
 - Julia
 - F#

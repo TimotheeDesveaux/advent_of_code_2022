@@ -35,6 +35,10 @@ pkgs.mkShell
 
     # Java
     jdk
+
+    # Kotlin
+    kotlin
+    kotlin-language-server
   ];
   shellHook = ''
     export PATH="$HOME/.local/bin:$PATH"
