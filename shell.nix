@@ -39,6 +39,10 @@ pkgs.mkShell
     # Kotlin
     kotlin
     kotlin-language-server
+
+    # Swift
+    swift
+    nodejs
   ];
   shellHook = ''
     export PATH="$HOME/.local/bin:$PATH"

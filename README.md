@@ -14,6 +14,7 @@
 - Day 10: Scala
 - Day 11: Java
 - Day 12: Kotlin
+- Day 13: Swift
 
 ## TODO
 
@@ -27,6 +28,5 @@
 - JS
 - C#
 - Shell
-- Swift
 - Julia
 - F#
