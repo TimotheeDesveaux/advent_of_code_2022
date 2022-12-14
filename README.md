@@ -15,6 +15,7 @@
 - Day 11: Java
 - Day 12: Kotlin
 - Day 13: Swift
+- Day 14: JS
 
 ## TODO
 
@@ -25,7 +26,6 @@
 - Lua
 - Lisp
 - Haskell
-- JS
 - C#
 - Shell
 - Julia

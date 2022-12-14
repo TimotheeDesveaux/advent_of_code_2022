@@ -42,7 +42,11 @@ pkgs.mkShell
 
     # Swift
     swift
+
+    # JS
     nodejs
+    nodePackages_latest.typescript
+    nodePackages_latest.typescript-language-server
   ];
   shellHook = ''
     export PATH="$HOME/.local/bin:$PATH"
