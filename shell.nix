@@ -47,6 +47,9 @@ pkgs.mkShell
     nodejs
     nodePackages_latest.typescript
     nodePackages_latest.typescript-language-server
+
+    # Common Lisp
+    sbcl
   ];
   shellHook = ''
     export PATH="$HOME/.local/bin:$PATH"

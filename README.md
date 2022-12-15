@@ -16,6 +16,7 @@
 - Day 12: Kotlin
 - Day 13: Swift
 - Day 14: JS
+- Day 15: Lisp
 
 ## TODO
 
@@ -24,7 +25,6 @@
 - Go
 - Python
 - Lua
-- Lisp
 - Haskell
 - C#
 - Shell
