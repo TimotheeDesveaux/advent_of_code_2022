@@ -3,6 +3,10 @@ pkgs.mkShell
 {
   name = "aoc-2022-env";
   nativeBuildInputs = with pkgs; [
+    # C
+    gcc
+    clang-tools
+
     # Ocaml
     ocaml
     ocamlPackages.ocaml-lsp
@@ -50,6 +54,10 @@ pkgs.mkShell
 
     # Common Lisp
     sbcl
+
+    # Python
+    python
+    nodePackages.pyright
   ];
   shellHook = ''
     export PATH="$HOME/.local/bin:$PATH"

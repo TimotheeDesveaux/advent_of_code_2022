@@ -17,6 +17,7 @@
 - Day 13: Swift
 - Day 14: JS
 - Day 15: Lisp
+- Day 16: Python
 
 ## TODO
 
